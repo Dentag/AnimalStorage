@@ -1,3 +1,23 @@
 <resources>
     <string name="app_name">AnimalStorage</string>
+    <string name="toolbar_title_animals">Animals</string>
+    <string name="nameField">Name</string>
+    <string name="ageField">Age</string>
+    <string name="breedField">Breed</string>
+    <string name="addOrUpdateButton">ADD / UPDATE</string>
+    <string name="filterKey">filter</string>
+    <string name="filterTitle">Filter by</string>
+    <string name="roomKey">room</string>
+    <string name="roomTitle">Room</string>
+    <string name="roomSummary">Query by Room</string>
+    <string name="no_animals_added">No animals added</string>
+    <string name="update_menu_title">Update</string>
+    <string name="remove_menu_title">Remove</string>
+    <string name="exitPrefsKey">exitPrefsKey</string>
+    <string name="ok">OK</string>
+    <string-array name="filters">
+        <item>@string/nameField</item>
+        <item>@string/ageField</item>
+        <item>@string/breedField</item>
+    </string-array>
 </resources>
