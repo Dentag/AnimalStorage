@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <DropDownPreference
+        android:entries="@array/filters"
+        android:entryValues="@array/filters"
+        android:key="@string/filterKey"
+        android:title="@string/filterTitle"
+        app:useSimpleSummaryProvider="true" />
+    <SwitchPreferenceCompat
+        android:key="@string/roomKey"
+        android:summary="@string/roomSummary"
+        android:title="@string/roomTitle" />
+    <Preference
+        android:key="@string/exitPrefsKey"
+        android:title="@string/ok"
+        app:allowDividerAbove="true" />
+</PreferenceScreen>
